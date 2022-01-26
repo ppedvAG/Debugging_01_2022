@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using TolleLib;
 
 namespace HalloDebugger
@@ -17,18 +18,21 @@ namespace HalloDebugger
             Console.WriteLine("RELEASE MODE");
 #endif
 
+            Debug.Assert(!Environment.Is64BitProcess);
 
             Console.WriteLine("Hallo Debugger");
             Console.WriteLine("Pause");
             Console.ReadLine();
-            MachSachen();
+            //MachSachen();
 
 
             var c1 = new Class1();
             c1.SagHallo();
+            c1.LadeAlleDaten();
 
             Console.ReadKey();
         }
+
 
         private static void MachSachen()
         {
