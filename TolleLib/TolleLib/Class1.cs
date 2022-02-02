@@ -10,5 +10,21 @@ namespace TolleLib
         {
             Console.WriteLine("Hallo von der Besten Lib222");
         }
+
+
+        public void LadeAlleDaten()
+        {
+
+            try
+            {
+                throw new NotImplementedException();
+            }
+            catch (Exception ex)
+            {
+
+                throw new Exception("Schade", ex);
+
+            }
+        }
     }
 }
