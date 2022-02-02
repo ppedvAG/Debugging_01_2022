@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32104.313
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Versand-o-matic", "Versand-o-matic\Versand-o-matic.csproj", "{A276C470-995E-4E94-8FCE-84C4CD271D8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Versand-o-matic.Tests", "Versand-o-matic.Tests\Versand-o-matic.Tests.csproj", "{1CF3071A-7BF8-417C-A069-4E6940EC8791}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A276C470-995E-4E94-8FCE-84C4CD271D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A276C470-995E-4E94-8FCE-84C4CD271D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A276C470-995E-4E94-8FCE-84C4CD271D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A276C470-995E-4E94-8FCE-84C4CD271D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CF3071A-7BF8-417C-A069-4E6940EC8791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF3071A-7BF8-417C-A069-4E6940EC8791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF3071A-7BF8-417C-A069-4E6940EC8791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF3071A-7BF8-417C-A069-4E6940EC8791}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3EE72B3-0E61-4741-B7E6-545B5744E5D3}
+	EndGlobalSection
+EndGlobal
